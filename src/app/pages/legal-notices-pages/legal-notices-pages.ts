@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
+
 @Component({
-  selector: 'app-about-page',
+  selector: 'app-legal-notices-pages',
   imports: [RouterLink, RouterLinkActive],
-  templateUrl: './about-page.html',
-  styleUrl: './about-page.css',
+  templateUrl: './legal-notices-pages.html',
+  styleUrl: './legal-notices-pages.css',
 })
-export class AboutPage {
+export class LegalNoticesPages {
 
 }

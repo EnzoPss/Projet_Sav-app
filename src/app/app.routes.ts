@@ -8,6 +8,7 @@ import { RecipeManagerPage } from './pages/recipe-manager-page/recipe-manager-pa
 import { UsersManagerPage } from './pages/users-manager-page/users-manager-page';
 import { IngredientsManagerPage } from './pages/ingredients-manager-page/ingredients-manager-page';
 import { AboutPage } from './pages/about-page/about-page';
+import { LegalNoticesPages } from './pages/legal-notices-pages/legal-notices-pages'
 
 
 export const routes: Routes = [
@@ -26,5 +27,6 @@ export const routes: Routes = [
 { path: 'users-manager', component: UsersManagerPage },
 { path: 'ingredients-manager', component: IngredientsManagerPage},
 // A propos (redirection vers home en cas d'url invalide):
-{ path: "about", component: AboutPage } // Toujours mis en dernier !
+{ path: "about", component: AboutPage }, // Toujours mis en dernier !
+{ path: "legal-notices", component: LegalNoticesPages },
 ];
