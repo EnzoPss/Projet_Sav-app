@@ -26,7 +26,8 @@ export const routes: Routes = [
 // Administration - Gestion :
 { path: 'users-manager', component: UsersManagerPage },
 { path: 'ingredients-manager', component: IngredientsManagerPage},
+// Mentions légales
+{ path: "legal-notices", component: LegalNoticesPages },
 // A propos (redirection vers home en cas d'url invalide):
 { path: "about", component: AboutPage }, // Toujours mis en dernier !
-{ path: "legal-notices", component: LegalNoticesPages },
 ];
