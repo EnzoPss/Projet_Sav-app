@@ -25,8 +25,8 @@ description: string;
 surgraissage: number;
 apportEnEau: number;
 avecSoude: boolean;
-concentrationAlcali: number;
-qteAlcali: number;
+concentrationAlcalin: number; // Rajouter un 'n' à la fin
+qteAlcalin: number; // Rajouter un 'n' à la fin
 ligneIngredients: LigneIngredient[];
 resultats: Resultat[];
 }
