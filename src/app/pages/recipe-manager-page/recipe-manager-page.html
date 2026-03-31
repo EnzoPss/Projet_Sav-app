@@ -3,6 +3,10 @@
         @for (recette of recettes; track recette.id) {
         <div class="col-md-4 mb-4">
             <div class="card h-100 shadow-sm">
+                <!-- Affichage du graphe radar : -->
+                <div class="chart-container mb-3" style="position: relative; height:400px;">
+                    <canvas [id]="'chart-' + recette.id"></canvas>
+                </div>
                 <div class="card-body">
                     <h5 class="card-title text-primary">{{ recette.titre }}</h5>
                     <p class="card-text text-truncate">{{ recette.description }}</p>
@@ -38,6 +42,7 @@
         </div>
         }
     </div>
+
     <!-- Code du modal : -->
     <div class="modal fade" id="modalDetails" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog modal-lg">
